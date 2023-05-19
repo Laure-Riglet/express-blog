@@ -1,4 +1,4 @@
-# ExpressJS testing with a simple blog
+# ExpressJS testing with a simple blog creation
 
 ## Installation
 
