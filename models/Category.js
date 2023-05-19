@@ -12,6 +12,9 @@ const Category = sequelize.define('Category', {
         type: DataTypes.STRING
         // allowNull defaults to true
     },
+    //! What's the difference with: 
+    //! Category.hasMany(Category) or as suggested by Copilot: 
+    //! Category.hasMany(Category, { as: 'children', foreignKey: 'parent_id' });
     parent_id: {
         type: DataTypes.INTEGER,
         references: {

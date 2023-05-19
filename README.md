@@ -13,5 +13,14 @@ npm install
 
 ```bash
 npm install --save sequelize
-$ npm install --save pg pg-hstore
+npm install --save pg pg-hstore
+npm install --save-dev sequelize-cli
+```
+
+## Usage
+
+### Run the server
+
+```bash
+DEBUG=myapp:* npm start
 ```

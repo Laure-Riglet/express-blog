@@ -21,9 +21,6 @@ const Post = sequelize.define('Post', {
     }
 });
 
-// `sequelize.define` also returns the model
-console.log(Post === sequelize.models.Post); // true
-
 async function postsTableSync() {
     try {
         await Post.sync({ alter: true });
