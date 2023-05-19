@@ -24,3 +24,9 @@ npm install --save-dev sequelize-cli
 ```bash
 DEBUG=myapp:* npm start
 ```
+
+## Documentation
+
+[ExpressJS](https://expressjs.com/)
+[Sequelize](http://docs.sequelizejs.com/)
+[PostgreSQL](https://www.postgresql.org/docs/)
